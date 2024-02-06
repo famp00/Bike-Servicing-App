@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us"
+    android:layout_margin="30dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MechaDhaka"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="60dp"/>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:scaleType="fitXY"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_marginTop="50dp"
+
+
+        android:text=" This app helps you with your difficulties of your personal vehicles.We provide you services, accessories and some simple suggestions.You can make your day-to-day life better
+    What services we are providing
+    - Motorbike servicing
+    - Motor bike accessories
+    - Pre owned Motorbikes
+    - Motorbike washing and cleaning
+    - Experts openion
+    And many more
+    This app is now on development state. We are and we will be developing this with new technologies. Hope you like our services" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Back"
+            android:textSize="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="80dp"
+            android:id="@+id/backabout"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

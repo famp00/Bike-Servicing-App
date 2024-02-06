@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string-array name="Bike_Name">
+
+        <item>Yamaha R15M</item>
+        <item>Yamaha Vixion R 155</item>
+        <item>Honda CB150R Exmotion</item>
+        <item>Honda X-Blade 160 ABS</item>
+        <item>Honda CB150X</item>
+        <item>Honda ADV 150</item>
+        <item>Honda CB150R Streetfire</item>
+        <item>Honda Activa 125 Fi BS6</item>
+        <item>Honda CB Hornet 160R ABS</item>
+        <item>Honda Dream 110</item>
+
+
+    </string-array>
+
+
+    <string-array name="accessories">
+
+        <item>Helmet</item>
+        <item>Gloves</item>
+        <item>Suit</item>
+        <item>Headlight</item>
+        <item>Kick</item>
+        <item>Horn</item>
+        <item>Suspension</item>
+        <item>Break</item>
+        <item>Kit</item>
+        <item>Seat</item>
+
+
+    </string-array>
+</resources>

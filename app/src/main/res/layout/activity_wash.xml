@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wash"
+    android:layout_margin="30dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MechaDhaka"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="60dp"/>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:scaleType="fitXY"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wash Your Bike"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/w_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bike's Name"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/w_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registration No"
+        android:inputType="number"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/w_prob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model"
+        android:inputType="text"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/w_dat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date and Time"
+        android:inputType="datetime"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/w_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pick up point"
+        android:inputType="textPostalAddress"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Back"
+            android:textSize="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="80dp"
+            android:id="@+id/backwash"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="go"
+            android:textSize="10dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="80dp"
+            android:id="@+id/washgo"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

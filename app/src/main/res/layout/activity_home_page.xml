@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".login">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="MechaDhaka"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo" />
+
+
+
+        </TableRow>
+
+
+
+        <TableLayout>
+
+            <TableRow>
+
+
+                <Button
+                    android:id="@+id/bikestore"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#8B0000"
+                    android:hint="Bike Store"
+                    android:textColorHint="@color/white"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/accs"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#8B0000 "
+                    android:hint="Accessories"
+                    android:textColorHint="@color/white"
+                    android:textSize="20dp" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <Button
+                    android:id="@+id/svc"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#8B0000"
+                    android:hint="Servicing"
+                    android:textColorHint="@color/white"
+                    android:textSize="20dp"/>
+
+                <Button
+                    android:id="@+id/bikewash"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#8B0000 "
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:hint="Bike Wash"
+                    android:textColorHint="@color/white"
+                    android:textSize="20dp"
+                    />
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <Button
+                    android:id="@+id/opinion"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#8B0000 "
+                    android:hint="Expert's Opinion"
+                    android:textColorHint="@color/white"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/about"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#8B0000 "
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:hint="About Us"
+                    android:textColorHint="@color/white"
+                    android:textSize="20dp"
+                    />
+
+
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Back"
+            android:textSize="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/backhomepage"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Log Out"
+            android:textSize="10dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="@color/white"
+            android:id="@+id/logout"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</TableLayout>
+
